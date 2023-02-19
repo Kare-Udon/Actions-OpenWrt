@@ -22,3 +22,7 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 src-git nas https://github.com/linkease/nas-packages.git
 src-git jerrykuku https://github.com/jerrykuku/openwrt-package
 EOF
+
+# Add other packages
+git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
+git clone https://github.com/Zxilly/UA2F package/UA2F
